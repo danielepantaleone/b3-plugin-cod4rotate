@@ -29,7 +29,7 @@ from b3.plugin import Plugin
 from ConfigParser import NoOptionError
 
 
-class Cod4rotatePlugin(Plugin):
+class Cod4RotatePlugin(Plugin):
 
     ####################################################################################################################
     #                                                                                                                  #
