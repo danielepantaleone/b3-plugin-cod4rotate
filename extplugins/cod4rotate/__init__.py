@@ -21,7 +21,7 @@
 
 
 __author__ = 'Daniele Pantaleone'
-__version__ = '1.0'
+__version__ = '1.0.1'
 
 
 from b3.cron import PluginCronTab
@@ -92,7 +92,7 @@ class Cod4RotatePlugin(Plugin):
 
         self.debug('installing crontab...')
         self.console.cron - self.crontab
-        self.crontab = PluginCronTab(self, self.cron, 0, '*/30')
+        self.crontab = PluginCronTab(self, self.cron, 30)
         self.console.cron + self.crontab
         self.debug('plugin started')
 
